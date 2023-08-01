@@ -1,0 +1,35 @@
+.conteiner {
+    height: 400px;
+    background-image: linear-gradient(to right, green, white, red);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.quadrado {
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15%;
+    transition: transform 1s;
+    transform: translateX(1) scale(0.5);
+}
+
+.quadrado:hover,
+.quadrado:focus {
+    transform: translateX(10px) scale(1.2);
+
+}
+
+.imagem {
+    height: 110px;
+    width: 200px;
+    display: flex;
+    position: static;
+    justify-content: space-around;
+
+}
